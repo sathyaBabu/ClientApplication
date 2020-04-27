@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pkg"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/servicename"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/actions"
+        android:layout_width="fill_parent"
+        android:layout_height="31dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/categories"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp" />
+
+</LinearLayout>
